@@ -12,7 +12,7 @@ class Loci < Formula
   homepage "https://github.com/jkawamoto/loci"
   version "0.2.0"
 
-  if Hardware.is_64_bit?
+  if Hardware::CPU.is_64_bit?
     url "https://github.com/jkawamoto/loci/releases/download/v0.2.0/loci_0.2.0_darwin_amd64.zip"
     sha256 "d983023436e56d08a47a10a4ca2e56b8b72f10231c2e07878411922990b8e96c"
   else
