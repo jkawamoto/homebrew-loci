@@ -10,14 +10,14 @@
 class Loci < Formula
   desc "Local Testing for CI"
   homepage "https://github.com/jkawamoto/loci"
-  version "0.2.1"
+  version "0.3.0"
 
   if Hardware::CPU.is_64_bit?
-    url "https://github.com/jkawamoto/loci/releases/download/v0.2.1/loci_0.2.1_darwin_amd64.zip"
-    sha256 "59aa436bcc7610d9b9aa5c077f3b2af9aacb232b39623190eef49cfdd9c92220"
+    url "https://github.com/jkawamoto/loci/releases/download/v0.3.0/loci_0.3.0_darwin_amd64.zip"
+    sha256 "4d6cccf74fb3607dfb06463fce15d2bb1bda039f32a457777af1bdab29e9e20c"
   else
-    url "https://github.com/jkawamoto/loci/releases/download/v0.2.1/loci_0.2.1_darwin_386.zip"
-    sha256 "d6b00b1e3edf522cad72861c05d7431b8959a7277b6224528a3517aa04703e28"
+    url "https://github.com/jkawamoto/loci/releases/download/v0.3.0/loci_0.3.0_darwin_386.zip"
+    sha256 "7e9f18905ef8da5c90cf8288744928adf5622d4f2d1ee0f4ad379622a0eae0d7"
   end
 
   def install
