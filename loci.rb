@@ -10,14 +10,14 @@
 class Loci < Formula
   desc "Testing remote CI scripts locally"
   homepage "https://github.com/jkawamoto/loci"
-  version "0.4.4"
+  version "0.4.5"
 
   if Hardware::CPU.is_64_bit?
-    url "https://github.com/jkawamoto/loci/releases/download/v0.4.4/loci_0.4.4_darwin_amd64.zip"
-    sha256 "fb432d377a832001a9989ea2864c85c29b5a81af28d44d5912cc89e3103aada9"
+    url "https://github.com/jkawamoto/loci/releases/download/v0.4.5/loci_0.4.5_darwin_amd64.zip"
+    sha256 "5a01c1af08febc389248a2fa40d2c196f04fe1236da70dc2affa186424a51b34"
   else
-    url "https://github.com/jkawamoto/loci/releases/download/v0.4.4/loci_0.4.4_darwin_386.zip"
-    sha256 "533416b9c01c98cc39bcae7bf58fcc73bb6121cafeb89165aa901a0435de8351"
+    url "https://github.com/jkawamoto/loci/releases/download/v0.4.5/loci_0.4.5_darwin_386.zip"
+    sha256 "14c9c00f43e2ed5d7f3e535a827b0dc8a96416edfe1554de3d46c24c62b35936"
   end
 
   def install
